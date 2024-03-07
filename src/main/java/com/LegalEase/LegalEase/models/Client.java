@@ -1,11 +1,9 @@
 package com.LegalEase.LegalEase.models;
 
-import lombok.Getter;
-import lombok.Setter;
-
+import jakarta.persistence.Table;
 import java.util.Date;
 
-
+@Table(name = "clients")
 public class Client {
 
 
